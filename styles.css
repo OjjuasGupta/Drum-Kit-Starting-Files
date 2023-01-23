@@ -18,44 +18,44 @@ footer {
 
 .w {
   
-    background: url('/images/tom1.png') no-repeat top left;
+    background: url('/images/tom1.png') ;
   
 }
 
 .a {
 
-  background: url('/images/tom2.png') no-repeat top left;
+  background: url('/images/tom2.png') ;
    
 }
 
 .s {
 
-  background: url('/images/tom3.png') no-repeat top left;
+  background: url('/images/tom3.png') ;
    
 }
 
 .d {
   
-    background: url('/images/tom4.png') no-repeat top left;
+    background: url('/images/tom4.png') ;
    
 
 }
 
 .j {
 
-  background: url('/images/snare.png') no-repeat top left;
+  background: url('/images/snare.png') ;
 
 }
 
 .k {
 
-  background: url('/images/crash.png') no-repeat top left;
+  background: url('/images/crash.png') ;
    
 }
 
 .l {
 
-  background: url('/images/kick.png') no-repeat top left;
+  background: url('/images/kick.png') ;
   
 }
 
