@@ -59,8 +59,8 @@ switch (key) {
 }
 
 function buttonAnimation(currentKey){
-    var activeButton =document.querySelector("."+currentKey);
-    activeButton.classList.add("pressed");
+    var activeButton =document.querySelector("."+currentKey);// using . connector in order be like  ".w"
+    activeButton.classList.add("pressed"); // using starting javascript feature
     setTimeout(function(){
         activeButton.classList.remove("pressed");
     },100);
