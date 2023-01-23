@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener("click",handClick()); 
+document.querySelector("button").addEventListener("click",handClick); 
 
 function handClick()
 {
