@@ -34,12 +34,13 @@ document.querySelectorAll("button")[i].addEventListener("click",function()      
             crash.play();
             break;
         case "l":
-            var kick = new Audio('sounds/kick-bass.mp3');
-            kick.play();
+            var kickbass = new Audio('sounds/kick-bass.mp3');
+            kickbass.play();
             break;
         
         default:
             console.log(buttonInnerHTML);
+            
     }
 
 
