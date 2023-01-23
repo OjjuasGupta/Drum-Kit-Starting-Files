@@ -8,7 +8,19 @@ document.querySelectorAll("button")[i].addEventListener("click",function()      
                                                                                 //[i] has been taken to click on all the keys
 {
     var buttonInnerHTML=this.innerHTML;
-    switch (buttonInnerHTML) {
+    
+    makeSound(buttonInnerHTML);
+
+}); 
+
+document.addEventListener("keypress",function(event)
+{
+    makeSound(event.key);
+}
+);
+
+function makeSound(key){
+switch (key) {
         case "w":
             var tom1 = new Audio('sounds/tom-1.mp3');
             tom1.play();
@@ -42,7 +54,4 @@ document.querySelectorAll("button")[i].addEventListener("click",function()      
             console.log(buttonInnerHTML);
             
     }
-
-
-}); 
-
+}
