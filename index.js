@@ -7,6 +7,8 @@ for(var i=1;i<document.querySelectorAll(".drum").length;i++)        //till the l
 document.querySelectorAll("button")[i].addEventListener("click",function()      //here function is anonyomus no name provided
                                                                                 //[i] has been taken to click on all the keys
 {
-    alert("I got clicked!");
+   var audio = new Audio('sounds/tom-1.mp3');
+    audio.play();
+
 }); 
 
